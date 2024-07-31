@@ -21,13 +21,13 @@ Adding breadcrumbs
 
 ```html
 <ilw-page-title>
-  <il-nav slot="breadcrumbs">
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/programs">Programs</a></li>
-      <li>Graduate Programs</li>
-    </ul>
-  </il-nav>
+    <ilw-breadcrumbs>
+        <a href="/">Home</a>
+        <a href="/academics">Academics</a>
+        <a href="/academics/undergraduate">Undergraduate programs</a>
+        <span>Degree programs</span>
+        <h1>Graduate Programs</h1>
+    </ilw-breadcrumbs>
 </ilw-page-title>
 ```
 Adding a background image
