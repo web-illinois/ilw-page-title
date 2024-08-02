@@ -26,8 +26,8 @@ Adding breadcrumbs
         <a href="/academics">Academics</a>
         <a href="/academics/undergraduate">Undergraduate programs</a>
         <span>Degree programs</span>
-        <h1>Graduate Programs</h1>
     </ilw-breadcrumbs>
+    <h1>Graduate Programs</h1>
 </ilw-page-title>
 ```
 Adding a background image
