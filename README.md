@@ -39,15 +39,7 @@ Adding a background image
 </ilw-page-title>
 ```
 
-## Accessibility Notes and Use
-
-Consider accessibility, both for building the component and for its use:
-
-- Is there sufficient color contrast?
-- Can the component be fully understood without colors?
-- Does the component need alt text or ARIA roles?
-- Can the component be navigated with a keyboard? Is the tab order correct?
-- Are focusable elements interactive, and interactive elements focusable?
-- Are form fields, figures, fieldsets and other interactive elements labelled?
-
 ## External References
+https://www.nngroup.com/articles/text-over-images/
+
+https://www.smashingmagazine.com/2023/08/designing-accessible-text-over-images-part1/
