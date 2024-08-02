@@ -17,10 +17,19 @@ For a top-of-page component with more visual impact, see il-hero.
   <h1>Graduate Programs</h1>
 </ilw-page-title>
 ```
+With a background image
+
+```html
+<ilw-page-title>
+  <img src="background.png" alt="" slot="background">
+  <h1>Graduate Programs</h1>
+</ilw-page-title>
+```
 Adding breadcrumbs
 
 ```html
 <ilw-page-title>
+    <img src="background.png" alt="" slot="background">
     <ilw-breadcrumbs>
         <a href="/">Home</a>
         <a href="/academics">Academics</a>
@@ -28,14 +37,6 @@ Adding breadcrumbs
         <span>Degree programs</span>
     </ilw-breadcrumbs>
     <h1>Graduate Programs</h1>
-</ilw-page-title>
-```
-Adding a background image
-
-```html
-<ilw-page-title>
-  <img src="background.png" alt="" slot="background">
-  <h1>Graduate Programs</h1>
 </ilw-page-title>
 ```
 
