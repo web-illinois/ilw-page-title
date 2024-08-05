@@ -8,6 +8,10 @@ Links: **[ilw-page-title in Builder](https://builder3.toolkit.illinois.edu/compo
 
 The Illinois theme component ilw-page-title provides a background image and gradient overlay options for the text of the title of a particular web page. It is designed to accomodate the page breadcrumbs.
 
+The page title should be added in an ```<h1>``` tag. The background image can be added using the slot "background". The image should be added as an ```<img>``` tag.
+
+The default color theme is white text on a dark blue background. Other themes available are orange, blue, and white.
+
 For a top-of-page component with more visual impact, see il-hero.
 
 ## Code Examples
