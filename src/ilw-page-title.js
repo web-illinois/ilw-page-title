@@ -3,7 +3,6 @@ import styles from './ilw-page-title.styles';
 import './ilw-page-title.css';
 
 class PageTitle extends LitElement {
-
     static get properties() {
         return {
             theme: { type: String, attribute: true }
@@ -16,19 +15,22 @@ class PageTitle extends LitElement {
 
     constructor() {
         super();
-        this.align = '';
-        this.focus = '';
-        this.shadow = false;
-        this.collapse = false;
         this.theme = '';
     }
 
     render() {
         return html`
-      <div>
-          <slot></slot>
-      </div>
-    `;
+            <div class="page-title">
+                <div class="background">
+                    <slot name="background"></slot>
+                </div>
+                <div class="inner">
+                    <div class="text">
+                        <slot></slot>
+                    </div>
+                </div>
+            </div>
+        `;
     }
 }
 

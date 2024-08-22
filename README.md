@@ -6,7 +6,7 @@ Links: **[ilw-page-title in Builder](https://builder3.toolkit.illinois.edu/compo
 
 ## Overview
 
-The Illinois theme component ilw-page-title provides a background image and gradient overlay options for the text of the title of a particular web page. It is designed to accomodate the page breadcrumbs.
+The Illinois theme component ilw-page-title provides a background image and gradient overlay options for the text of the title of a particular web page.
 
 The page title should be added in an ```<h1>``` tag. The background image can be added using the slot "background". The image should be added as an ```<img>``` tag.
 
@@ -18,29 +18,8 @@ For a top-of-page component with more visual impact, see il-hero.
 
 ```html
 <ilw-page-title>
-  <h1>Graduate Programs</h1>
-</ilw-page-title>
-```
-With a background image
-
-```html
-<ilw-page-title>
   <img src="background.png" alt="" slot="background">
   <h1>Graduate Programs</h1>
-</ilw-page-title>
-```
-Adding breadcrumbs
-
-```html
-<ilw-page-title>
-    <img src="background.png" alt="" slot="background">
-    <ilw-breadcrumbs>
-        <a href="/">Home</a>
-        <a href="/academics">Academics</a>
-        <a href="/academics/undergraduate">Undergraduate programs</a>
-        <span>Degree programs</span>
-    </ilw-breadcrumbs>
-    <h1>Graduate Programs</h1>
 </ilw-page-title>
 ```
 

@@ -16,7 +16,7 @@
         {
             "name": "default",
             "description": "Default information",
-            "text": "<p>Lorem ipsum</p>"
+            "text": "<img src=\"https://picsum.photos/1200/300\" alt=\"\" slot=\"background\">\n    <h1>Graduate Programs</h1>"
         }
     ],
     "attributes-fixed": [],
