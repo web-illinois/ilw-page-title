@@ -1,19 +1,27 @@
 {
     "name": "@illinois-toolkit/ilw-page-title",
-    "description": "One paragraph description of the component.",
+    "description": "Illinois Toolkit: provides a background image and gradient overlay options for the text of the title of a particular web page.",
     "repository": "github:web-illinois/ilw-page-title",
     "private": false,
     "version": "0.0.1",
     "type": "module",
+    "files": [
+      "src/**",
+      "dist/**",
+      "builder/**"
+    ],
     "exports": {
         ".": {
-            "import": "./src/ilw-page-title.js"
+            "import": "./src/ilw-page-title.js",
+            "require": "./src/ilw-page-title.cjs",
+            "default": "./src/ilw-page-title.js"
         }
     },
     "scripts": {
         "dev": "vite",
         "build": "vite build --config vite.build.config.js --emptyOutDir",
-        "preview": "vite preview"
+        "preview": "vite preview",
+        "prepack": "npm run build"
     },
     "dependencies": {
         "lit": "3.1.3"
