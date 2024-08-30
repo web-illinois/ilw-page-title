@@ -22,6 +22,8 @@ For a top-of-page component with more visual impact, see il-hero.
   <h1>Graduate Programs</h1>
 </ilw-page-title>
 ```
+## Upgrade Process
+* Rename ```il-page-title``` to ```ilw-page-title```.
 
 ## External References
 https://www.nngroup.com/articles/text-over-images/
