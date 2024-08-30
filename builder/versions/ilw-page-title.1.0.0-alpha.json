@@ -32,6 +32,15 @@
                 "orange",
                 "white"
             ]
+        },
+        {
+            "name": "width",
+            "description": "Whether or not this follows current borders or is full width",
+            "depreciated": false,
+            "values": [
+                "",
+                "full"
+            ]
         }
     ],
     "classes-fixed": [],

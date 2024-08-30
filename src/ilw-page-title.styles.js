@@ -11,6 +11,16 @@ export default css`
     padding-left: var(--ilw-page--padding-left);
     padding-right: var(--ilw-page--padding-right);
   }
+  .page-title.fixed {
+    left:50%;
+    margin-left:-50vw;
+    margin-right:-50vw;
+    padding-left:0;
+    padding-right:0;
+    position:relative;
+    right:50%;
+    width:100vw;
+  }
   .background {
     position: absolute;
     top: 0;
@@ -39,17 +49,26 @@ export default css`
     text-align: left;
     font: 700 2.5em var(--il-font-sans);
     padding: 16px 14px 20px;
+    margin: 0;
+  }
+  .page-title.fixed .text {
     margin: var(--ilw-page-title--main-margin);
   }
-  
+  @media (max-width: 1200px) {
+    .text {
+      margin: var(--ilw-page-title--main-margin);
+    }
+  }
   @media (max-width: 800px) {
     .text {
       font-size: 2em;
+      margin: var(--ilw-page-title--main-margin);
     }
   }
   @media (max-width: 600px) {
     .text {
       font-size: 1.5em;
+      margin: var(--ilw-page-title--main-margin);
     }
   }
   .text::after {

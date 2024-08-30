@@ -8,9 +8,29 @@
     <link rel="stylesheet" href="https://cdn.brand.illinois.edu/illinois.css">
     <link rel="stylesheet" href="https://dev.toolkit.illinois.edu/ilw-global/3.0.0-alpha/ilw-global.css">
     <script type="module" src="/src/ilw-page-title.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function(event) {
+        const params = new URLSearchParams(window.location.search);
+        document.querySelectorAll("ilw-page-title").forEach(component => {
+          if (params.has('width')) {
+            component.setAttribute('width', params.get('width'));
+          }
+        });
+      });
+    </script>
 </head>
 
-<body style="margin: 0; padding: 0;">
+<body style="margin: 0 auto; padding: 0; max-width: 1200px;">
+<ilw-page-title theme="orange" width="auto">
+    <img src="https://picsum.photos/1200/300" alt="" slot="background">
+    <h1>Graduate Programs</h1>
+</ilw-page-title>
+
+<ilw-page-title theme="white" width="full">
+    <img src="https://picsum.photos/1200/300" alt="" slot="background">
+    <h1>Graduate Programs</h1>
+</ilw-page-title>
+
 <ilw-page-title>
     <img src="https://picsum.photos/1200/300" alt="" slot="background">
     <h1>Graduate Programs</h1>

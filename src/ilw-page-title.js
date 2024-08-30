@@ -5,7 +5,8 @@ import './ilw-page-title.css';
 class PageTitle extends LitElement {
     static get properties() {
         return {
-            theme: { type: String, attribute: true }
+            theme: { type: String, attribute: true },
+            width: { type: String, attribute: true }
         };
     }
 
@@ -16,11 +17,16 @@ class PageTitle extends LitElement {
     constructor() {
         super();
         this.theme = '';
+        this.width = '';
+    }
+
+    get outerWidth() {
+        return this.width == 'full' || this.width == 'auto' ? 'fixed' : '';
     }
 
     render() {
         return html`
-            <div class="page-title">
+            <div class="page-title ${this.outerWidth}">
                 <div class="background">
                     <slot name="background"></slot>
                 </div>
