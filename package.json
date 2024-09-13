@@ -3,7 +3,8 @@
     "description": "Illinois Toolkit: provides a background image and gradient overlay options for the text of the title of a particular web page.",
     "repository": "github:web-illinois/ilw-page-title",
     "private": false,
-    "version": "1.0.0-alpha",
+    "license": "MIT",
+    "version": "1.0.0-beta",
     "type": "module",
     "files": [
       "src/**",

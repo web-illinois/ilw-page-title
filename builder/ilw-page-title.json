@@ -4,8 +4,8 @@
     "github": "https://github.com/web-illinois/ilw-page-title/",
     "type": "web component",
     "element-name": "ilw-page-title",
-    "description": "Description for builder.",
+    "description": "The component ilw-page-title provides a background image and gradient overlay options for the text of the title of a particular web page.",
     "toolkit-version": "",
     "production-version": "",
-    "development-version": "1.0.0-alpha"
+    "development-version": "1.0-beta"
 }
