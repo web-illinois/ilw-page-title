@@ -5,6 +5,7 @@
     "type": "web component",
     "element-name": "ilw-page-title",
     "description": "The component ilw-page-title provides a background image and gradient overlay options for the text of the title of a particular web page.",
+    "purpose": "Add a stylized page title with an image.",
     "toolkit-version": "",
     "production-version": "",
     "development-version": "1.0-beta"
