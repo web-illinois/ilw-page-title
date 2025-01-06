@@ -1,6 +1,11 @@
 import { css } from 'lit';
 
-export default css`
+export default css` 
+  :host {
+    display: block;
+    container-type: inline-size;
+    contain: layout;
+  }
   .page-title {
     box-sizing: border-box;
     position: relative;
