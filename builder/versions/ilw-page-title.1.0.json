@@ -40,7 +40,8 @@
             "depreciated": false,
             "values": [
                 "",
-                "full"
+                "full",
+                "page"
             ]
         }
     ],

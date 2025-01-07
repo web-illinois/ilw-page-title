@@ -16,7 +16,8 @@ export default css`
     padding-left: var(--ilw-page--padding-left);
     padding-right: var(--ilw-page--padding-right);
   }
-  .page-title.fixed {
+  .page-title.fixed,
+  .page-title.page {
     left:50%;
     margin-left:-50vw;
     margin-right:-50vw;
@@ -58,6 +59,9 @@ export default css`
   }
   .page-title.fixed .text {
     margin: var(--ilw-page-title--main-margin);
+  }
+  .page-title.page .text {
+    margin: 0;
   }
   @media (max-width: 1200px) {
     .text {
