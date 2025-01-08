@@ -12,7 +12,12 @@ The page title should be added in an ```<h1>``` tag. The background image can be
 
 The default color theme is white text on a dark blue background. Other themes available are orange, blue, and white.
 
-For a top-of-page component with more visual impact, see il-hero.
+For a top-of-page component with more visual impact, see ilw-hero.
+
+### Attributes
+* width: no width attribute will make it fit the container, ```full``` will break the container and go full width, ```auto``` and ```page``` will break the container for the background only. 
+
+* theme: Default is white text on a dark blue background. Other themes available are ```orange```, ```blue```, and ```white```.
 
 ## Code Examples
 

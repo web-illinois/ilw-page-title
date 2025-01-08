@@ -41,7 +41,8 @@
             "values": [
                 "",
                 "full",
-                "page"
+                "page",
+                "auto"
             ]
         }
     ],
