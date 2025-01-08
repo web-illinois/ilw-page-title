@@ -21,7 +21,7 @@ class PageTitle extends LitElement {
     }
 
     get outerWidth() {
-        return this.width == 'full' || this.width == 'auto' ? 'fixed' : this.width == 'page' ? 'page' : '';
+        return this.width == 'page' || this.width == 'auto' ? 'fixed' : '' || this.width == 'full' ? 'full' : '';
     }
 
     render() {

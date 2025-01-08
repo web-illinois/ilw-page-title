@@ -1,6 +1,6 @@
 import { css } from 'lit';
 
-export default css` 
+export default css`
   :host {
     display: block;
     container-type: inline-size;
@@ -16,8 +16,7 @@ export default css`
     padding-left: var(--ilw-page--padding-left);
     padding-right: var(--ilw-page--padding-right);
   }
-  .page-title.fixed,
-  .page-title.page {
+  .page-title.fixed, .page-title.full {
     left:50%;
     margin-left:-50vw;
     margin-right:-50vw;
@@ -26,6 +25,9 @@ export default css`
     position:relative;
     right:50%;
     width:100vw;
+    display: block;
+    container-type: inline-size;
+    contain: layout;
   }
   .background {
     position: absolute;
@@ -59,9 +61,6 @@ export default css`
   }
   .page-title.fixed .text {
     margin: var(--ilw-page-title--main-margin);
-  }
-  .page-title.page .text {
-    margin: 0;
   }
   @media (max-width: 1200px) {
     .text {
