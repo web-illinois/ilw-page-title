@@ -21,6 +21,10 @@ ilw-page-title {
     --ilw-page-title--background-color: white;
   }
 
+  &[fade="true"] img {
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0));
+  }
+
   h1 {
     font-size: 1em;
     font-weight: inherit;

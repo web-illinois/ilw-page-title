@@ -6,7 +6,8 @@ class PageTitle extends LitElement {
     static get properties() {
         return {
             theme: { type: String, attribute: true },
-            width: { type: String, attribute: true }
+            width: { type: String, attribute: true },
+            fade: { type: Boolean, attribute: true }
         };
     }
 
@@ -18,6 +19,7 @@ class PageTitle extends LitElement {
         super();
         this.theme = '';
         this.width = '';
+        this.fade = false;
     }
 
     get outerWidth() {

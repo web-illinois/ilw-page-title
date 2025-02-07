@@ -44,6 +44,15 @@
                 "page",
                 "auto"
             ]
+        },
+        {
+            "name": "fade",
+            "description": "Whether or not the image should fade",
+            "depreciated": false,
+            "values": [
+                "",
+                "true"
+            ]
         }
     ],
     "classes-fixed": [],

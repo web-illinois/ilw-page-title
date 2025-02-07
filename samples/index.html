@@ -15,13 +15,16 @@
           if (params.has('width')) {
             component.setAttribute('width', params.get('width'));
           }
+          if (params.has('fade')) {
+            component.setAttribute('fade', params.get('fade'));
+          }
         });
       });
     </script>
 </head>
 
 <body style="margin: 0 auto; padding: 0; max-width: 1200px;">
-<ilw-page-title theme="orange" width="page">
+<ilw-page-title theme="orange" width="page" fade="true">
     <img src="https://picsum.photos/1200/300" alt="" slot="background">
     <h1>Graduate Programs</h1>
 </ilw-page-title>
