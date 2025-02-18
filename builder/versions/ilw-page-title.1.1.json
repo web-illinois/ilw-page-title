@@ -1,0 +1,62 @@
+{
+    "title": "Page Title",
+    "tag": "ilw-page-title",
+    "github": "https://github.com/web-illinois/ilw-page-title/",
+    "type": "web component",
+    "element-name": "ilw-page-title",
+    "description": "The component ilw-page-title provides a background image and gradient overlay options for the text of the title of a particular web page.",
+    "builder-version": "1.1",
+    "version": "1.1.0",
+    "date": "2/18/2025",
+    "css": "https://cdn.toolkit.illinois.edu/ilw-page-title/1.1.0/ilw-page-title.css",
+    "js": "https://cdn.toolkit.illinois.edu/ilw-page-title/1.1.0/ilw-page-title.js",
+    "production": true,
+    "notes": "",
+    "parent-style": "",
+    "samples": [
+        {
+            "name": "default",
+            "description": "Default information",
+            "text": "<img src=\"https://picsum.photos/1200/300\" alt=\"\" slot=\"background\">\n    <h1>Graduate Programs</h1>"
+        }
+    ],
+    "attributes-fixed": [],
+    "attributes-text": [],
+    "attributes": [
+        {
+            "name": "theme",
+            "description": "Color theme used",
+            "depreciated": false,
+            "values": [
+                "",
+                "blue",
+                "orange",
+                "white"
+            ]
+        },
+        {
+            "name": "width",
+            "description": "Whether or not this follows current borders or is full width",
+            "depreciated": false,
+            "values": [
+                "",
+                "full",
+                "page",
+                "auto"
+            ]
+        },
+        {
+            "name": "fade",
+            "description": "Whether or not the image should fade",
+            "depreciated": false,
+            "values": [
+                "",
+                "true"
+            ]
+        }
+    ],
+    "classes-fixed": [],
+    "classes": [],
+    "css-variables": [
+    ]
+}
