@@ -8,16 +8,16 @@ Links: **[ilw-page-title in Builder](https://builder3.toolkit.illinois.edu/compo
 
 The Illinois theme component ilw-page-title provides a background image and gradient overlay options for the text of the title of a particular web page.
 
-The page title should be added in an ```<h1>``` tag. The background image can be added using the slot "background". The image should be added as an ```<img>``` tag.
+The page title should be added in an `<h1>` tag. The background image can be added using the slot "background". The image should be added as an `<img>` tag.
 
 The default color theme is white text on a dark blue background. Other themes available are orange, blue, and white.
 
 For a top-of-page component with more visual impact, see ilw-hero.
 
 ### Attributes
-* width: no width attribute will make it fit the container, ```full``` will break the container and go full width, ```auto``` and ```page``` will break the container for the background only. 
+* width: no width attribute will make it fit the container, `full` will break the container and go full width, `auto` and `page` will break the container for the background only. 
 
-* theme: Default is white text on a dark blue background. Other themes available are ```orange```, ```blue```, and ```white```.
+* theme: Default is white text on a dark blue background. Other themes available are `orange`, `blue`, and `white`.
 
 ## Code Examples
 
@@ -28,7 +28,7 @@ For a top-of-page component with more visual impact, see ilw-hero.
 </ilw-page-title>
 ```
 ## Upgrade Process
-* Rename ```il-page-title``` to ```ilw-page-title```.
+* Rename `il-page-title` to `ilw-page-title`.
 
 ## External References
 https://www.nngroup.com/articles/text-over-images/
