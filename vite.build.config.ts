@@ -4,18 +4,18 @@ import { defineConfig } from "vite";
 export default defineConfig({
     root: "src",
     build: {
-        outDir: "../dist",
+        outDir: "../dist/cdn",
         lib: {
             name: "ilw-page-title",
-            entry: "ilw-page-title.js",
+            entry: "ilw-page-title.ts",
             fileName: "ilw-page-title",
-            formats: ["es", "cjs", "umd"],
+            formats: ["es"],
         },
         rollupOptions: {
             output: {
-                assetFileNames: (chunkInfo) => {
-                    if (chunkInfo.name === "style.css") return "ilw-page-title.css";
-                },
+                assetFileNames: () => {
+                    return "[name][extname]";
+                }
             },
         },
     },

@@ -21,7 +21,7 @@ ilw-page-title {
     --ilw-page-title--background-color: white;
   }
 
-  &[fade="true"] img {
+  &[fade] img {
     -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0));
   }
 
