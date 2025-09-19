@@ -1,24 +1,24 @@
 :root {
-  --ilw-page-title--text-color: white;
-  --ilw-page-title--background-color: var(--il-blue);
+  --ilw-page-title--text-color: var(--ilw-color--background);
+  --ilw-page-title--background-color: var(--ilw-color--heading);
   --ilw-page-title--main-margin: 0 max(1.875rem, calc(50cqw - 37.5rem)) 0;
 }
 
 ilw-page-title {
 
   &[theme="blue"] {
-    --ilw-page-title--text-color: white;
-    --ilw-page-title--background-color: var(--il-blue);
+    --ilw-page-title--text-color: var(--ilw-color--blue--text);
+    --ilw-page-title--background-color: var(--ilw-color--blue--background);
   }
 
   &[theme="orange"] {
-    --ilw-page-title--text-color: white;
-    --ilw-page-title--background-color: var(--il-orange);
+    --ilw-page-title--text-color: var(--ilw-color--orange--heading);
+    --ilw-page-title--background-color: var(--ilw-color--orange--background);
   }
 
   &[theme="white"] {
-    --ilw-page-title--text-color: var(--il-blue);
-    --ilw-page-title--background-color: white;
+    --ilw-page-title--text-color: var(--ilw-color--white--heading);
+    --ilw-page-title--background-color: var(--ilw-color--white--background);
   }
 
   &[fade] img {

@@ -2,6 +2,7 @@ import { LitElement, html, css, CSSResultGroup, TemplateResult } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 import styles from './ilw-page-title.styles.js';
 import './ilw-page-title.css';
+import './ilw-colors.css';
 
 @customElement('ilw-page-title')
 export default class PageTitle extends LitElement {
