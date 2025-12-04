@@ -4,7 +4,7 @@
     "repository": "github:web-illinois/ilw-page-title",
     "private": false,
     "license": "MIT",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "type": "module",
     "files": [
         "src/**",
@@ -17,7 +17,7 @@
             "require": "./dist/ilw-page-title.cjs",
             "default": "./dist/ilw-page-title.js"
         },
-        "./ilw-breadcrumbs.css": {
+        "./ilw-page-title.css": {
             "import": "./dist/ilw-page-title.css"
         }
     },
