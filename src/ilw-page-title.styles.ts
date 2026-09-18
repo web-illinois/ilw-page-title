@@ -90,4 +90,7 @@ export default css`
     background-color: var(--ilw-page-title--background-color);
     opacity: .85;
   }
+  :host([fade]) .text::after {
+    opacity: 1;
+  }
 `;

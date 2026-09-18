@@ -19,6 +19,8 @@ For a top-of-page component with more visual impact, see ilw-hero.
 
 * theme: Default is white text on a dark blue background. Other themes available are `orange`, `blue`, and `white`.
 
+* fade: This is a boolean value. When set to true the image will fade from top to bottom.
+
 ## Code Examples
 
 ```html
