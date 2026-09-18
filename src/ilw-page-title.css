@@ -1,7 +1,7 @@
 :root {
   --ilw-page-title--text-color: var(--ilw-color--background);
   --ilw-page-title--background-color: var(--ilw-color--heading);
-  --ilw-page-title--main-margin: 0 max(1.875rem, calc(50cqw - 37.5rem)) 0;
+  --ilw-page-title--main-margin: 0 max(1.875rem, calc(50cqw - 35.625rem)) 0;
 }
 
 ilw-page-title {
